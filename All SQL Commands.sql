@@ -102,3 +102,14 @@ select usertype, month, count(*) as numbers
 from ` Cyclist_month.monthusertype`
 group by usertype, month
 order by usertype, month;
+
+--Extracting location data for generating map view on Tableau
+SELECT start_lat, start_lng FROM `Trip2020`
+where member_casual = 'member';
+SELECT end_lat, end_lng FROM `Trip2020`
+where member_casual = 'member';
+SELECT start_lat, start_lng FROM `Trip2020`
+where member_casual = 'casual';
+SELECT end_lat, end_lng FROM `Trip2020`
+where member_casual = 'casual';
+
