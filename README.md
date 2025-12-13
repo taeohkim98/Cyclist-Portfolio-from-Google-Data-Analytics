@@ -1,15 +1,15 @@
 ## Data Cleaning Process
 To ensure the dataset was clean, consistent, and ready for analysis, the following steps were performed:
-Standardized column names across all files in the spreadsheet.
-Removed outliers, such as birth years of 1900, using filters in the spreadsheet.
-Converted trip durations from seconds to minutes using spreadsheet formatting.
-Used “Paste Special - Values Only” for preventing any changes of data.
-Removed unnecessary whitespaces in all relevant columns.
-Updated usertype values, changing all entries labeled “customer” to “casual” using Find and Replace.
-Removed missing values in gender and birthyear using SQL in Google BigQuery. (Only used this formatted data for analyzing birthyear and gender)
-Unified date formats for start_time and end_time using spreadsheet formatting.
-Added new columns, day_of_week and ride_length, to support further analysis.
-Checked for typos and inconsistencies using conditional formatting in the spreadsheet.
+1. Standardized column names across all files in the spreadsheet.
+2. Removed outliers, such as birth years of 1900, using filters in the spreadsheet.
+3. Converted trip durations from seconds to minutes using spreadsheet formatting.
+4. Used “Paste Special - Values Only” for preventing any changes of data.
+5. Removed unnecessary whitespaces in all relevant columns.
+6. Updated usertype values, changing all entries labeled “customer” to “casual” using Find and Replace.
+7. Removed missing values in gender and birthyear using SQL in Google BigQuery. (Only used this formatted data for analyzing birthyear and gender)
+8. Unified date formats for start_time and end_time using spreadsheet formatting.
+9. Added new columns, day_of_week and ride_length, to support further analysis.
+10. Checked for typos and inconsistencies using conditional formatting in the spreadsheet.
 These steps ensured the data was accurate, standardized, and prepared for meaningful analysis and visualization.
 
 ## Data Preparation
