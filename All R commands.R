@@ -24,3 +24,8 @@ ggplot(data=utvsby) +
   facet_wrap(~usertype, scales="free_y") +
   labs(title="Birth Year Disribution by Rider Type", 
        caption=(paste(medianCasualStatement, medianMemberStatement,sep = "  |  ")))
+
+#For Creating Graph between hour from timestamp and number of users correspoding to the hour
+ggplot(data=timestampvsusertype) +
+  geom_bar(mapping=aes(x=hour,fill=usertype)) +
+  facet_wrap(~usertype, scales="free_y")
