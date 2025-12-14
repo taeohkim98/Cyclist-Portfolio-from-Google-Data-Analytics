@@ -20,7 +20,7 @@ medianCalcMember <- utvsby %>%
 medianMemberStatement <- paste("Median Birthyear of Member:",medianCalcMember)
 
 ggplot(data=utvsby) + 
-  geom_bar(mapping=aes(x=birthyear, fill = usertype)) + 
+  geom_bar(mapping=aes(x=birthyear)) + 
   facet_wrap(~usertype, scales="free_y") +
   labs(title="Birth Year Disribution by Rider Type", 
        caption=(paste(medianCasualStatement, medianMemberStatement,sep = "  |  ")))
