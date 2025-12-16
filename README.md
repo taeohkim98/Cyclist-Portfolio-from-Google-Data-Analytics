@@ -74,22 +74,31 @@ These procedures ensured the dataset was accurate, standardized, and fully prepa
 
 # Analysis
 Tools I used for data analysis was **Google Bigquery** with SQL. All of my SQL commands are in **All SQL Commands.sql** under the same repository of this rmd file.
-Tools I used for data analysis was **Google Bigquery** with SQL. All of my SQL commands are in **All R Commands.sql** under the same repository of this rmd file.
 
 1. **Age Distribution:** Casual riders tend to be younger than members. Due to data skewness, medians were used: median birth year is 1992 for casuals and 1985 for members.
 <img width="568" height="494" alt="image" src="https://github.com/user-attachments/assets/d8bb0631-88db-4cfc-b68e-8b56cb73016b" />
 
-2. **Ride Duration:** Casuals typically take longer trips than members.   
+2. **Ride Duration:** Casuals typically take 6 times longer trips than members.   
 <img width="600" height="371" alt="image" src="https://github.com/user-attachments/assets/b2aec693-313b-4b86-8f58-1a3a60fb0b06" />
 
-3. **Hourly Patterns:** Members ride mostly in the early morning to early afternoon, while casuals tend to ride during daytime hours.
+3. **Hourly Patterns:** Members typically ride from early morning to early afternoon, while casual riders tend to ride during daytime hours. For instance, at 8 a.m., the difference in bike usage between the two user groups is approximately 60 rides.
 <img width="568" height="494" alt="image" src="https://github.com/user-attachments/assets/d146cd40-2922-4b48-94f1-018269399e68" />
-
 
 4. **Seasonal Patterns:** Both groups ride more in March compared to January and February. Of the total rides in Q1, 31% occurred in January, 30% in February, and 39% in March (spring in Chicago). 
 <img width="600" height="371" alt="image" src="https://github.com/user-attachments/assets/9cddda74-3455-411d-8290-c223b1e1628f" />
 <img width="666" height="339" alt="image" src="https://github.com/user-attachments/assets/786af3f7-bf68-4220-9812-6b2a11edb8fc" />
 
+5. **Trip Start and End Locations:** There is no significant difference in the starting and ending locations between casual riders and members.
+<img width="865" height="771" alt="image" src="https://github.com/user-attachments/assets/0c55be43-26fd-4619-89f3-11e73c845039" />
+<img width="865" height="771" alt="image" src="https://github.com/user-attachments/assets/ac54449c-5a8d-4bb8-8516-e7b6018db326" />
+<img width="865" height="771" alt="image" src="https://github.com/user-attachments/assets/896ed116-d295-4ab2-89b7-e575ea1326b0" />
+<img width="865" height="771" alt="image" src="https://github.com/user-attachments/assets/45fcb1ec-525e-4eca-9b8d-e7060613a737" />
 
+6. **Weekly Usage Patterns:** Members exhibit relatively consistent bike usage throughout the week, whereas casual riders tend to ride more frequently on weekends, with usage approximately twice as high as on weekdays.
+<img width="600" height="371" alt="image" src="https://github.com/user-attachments/assets/0e1ed16c-5f28-4146-b4d3-6709753c242a" />
+
+---
+
+# Share
 
 
