@@ -73,9 +73,9 @@ These procedures ensured the dataset was accurate, standardized, and fully prepa
 ---
 
 # Analysis
-Tools I used for data analysis was **Google Bigquery** with SQL. All of my SQL commands are in **All SQL Commands.sql** under the same repository of this rmd file.
+Tools I used for data analysis was **Google Bigquery** with SQL. All of my SQL commands are in **All SQL Commands.sql** under the same repository of this rmd file. Pivot tables were utilized alongside Google Sheets to enhance the quality and interpretability of the visualizations.
 
-1. **Age Distribution:** Casual riders tend to be younger than members. Due to data skewness, medians were used: median birth year is 1992 for casuals and 1985 for members.
+1. **Age Distribution:** Casual riders tend to be younger than members. Due to data skewness, medians were used: median birth year is 1992 for casuals and 1985 for members. (Since birth year was only recorded in the 2020 dataset, the results are derived exclusively from the 2020 data.)
 <img width="568" height="494" alt="image" src="https://github.com/user-attachments/assets/d8bb0631-88db-4cfc-b68e-8b56cb73016b" />
 
 2. **Ride Duration:** Casuals typically take 6 times longer trips than members.   
