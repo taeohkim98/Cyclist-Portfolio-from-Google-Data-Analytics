@@ -30,7 +30,8 @@ To answer this question, I structured the analysis around the following key poin
 ---
 
 # Prepare
-For this analysis, we utilized Cyclistic’s historical trip data, specifically the Divvy 2019 Q1 and 2020 Q1 datasets, as recommended in the case study. These publicly available datasets provide detailed information on rides taken by both casual riders and annual members, while ensuring no personally identifiable information is included.
+For this analysis, we utilized Cyclistic’s historical trip data, specifically the Divvy 2019 Q1 and 2020 Q1 datasets, as recommended in the case study. These publicly available datasets provide detailed information on rides taken by both casual riders and annual members, while ensuring no personally identifiable information is included. Due to the limitations of the **Postit Cloud Free Trial**, a smaller subset of the full dataset was used for this analysis.
+Since the 2019 and 2020 datasets contained slightly different columns, we first standardized the datasets to include only the common fields. Any columns that were present in one dataset but missing in the other are noted and addressed later in the analysis where relevant.
 The datasets were downloaded, securely stored, and systematically organized for analysis. Data quality checks were performed, including verification of column consistency, identification of missing values, and detection of outliers. Additionally, derived variables such as ride duration and day of the week were created to facilitate subsequent analysis.
 
 ---
@@ -71,6 +72,23 @@ These procedures ensured the dataset was accurate, standardized, and fully prepa
 ---
 
 # Analysis
+Tools I used for data analysis was **Google Bigquery** with SQL. All of my SQL commands are in **All SQL Commands.sql** under the same repository of this rmd file.
+Tools I used for data analysis was **Google Bigquery** with SQL. All of my SQL commands are in **All R Commands.sql** under the same repository of this rmd file.
+
+1. **Age Distribution:** Casual riders tend to be younger than members. Due to data skewness, medians were used: median birth year is 1992 for casuals and 1985 for members.
+<img width="568" height="494" alt="image" src="https://github.com/user-attachments/assets/d8bb0631-88db-4cfc-b68e-8b56cb73016b" />
+
+2. **Ride Duration:** Casuals typically take longer trips than members.   
+<img width="600" height="371" alt="image" src="https://github.com/user-attachments/assets/b2aec693-313b-4b86-8f58-1a3a60fb0b06" />
+
+3. **Hourly Patterns:** Members ride mostly in the early morning to early afternoon, while casuals tend to ride during daytime hours.
+<img width="568" height="494" alt="image" src="https://github.com/user-attachments/assets/d146cd40-2922-4b48-94f1-018269399e68" />
+
+
+4. **Seasonal Patterns:** Both groups ride more in March compared to January and February. Of the total rides in Q1, 31% occurred in January, 30% in February, and 39% in March (spring in Chicago). 
+<img width="600" height="371" alt="image" src="https://github.com/user-attachments/assets/9cddda74-3455-411d-8290-c223b1e1628f" />
+<img width="666" height="339" alt="image" src="https://github.com/user-attachments/assets/786af3f7-bf68-4220-9812-6b2a11edb8fc" />
+
 
 
 
