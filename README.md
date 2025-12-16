@@ -75,16 +75,16 @@ These procedures ensured the dataset was accurate, standardized, and fully prepa
 # Analysis
 Tools I used for data analysis was **Google Bigquery** with SQL. All of my SQL commands are in **All SQL Commands.sql** under the same repository of this rmd file. Pivot tables were utilized alongside Google Sheets to enhance the quality and interpretability of the visualizations.
 
-1. **Age Distribution:** Casual riders tend to be younger than members. Due to data skewness, medians were used: median birth year is 1992 for casuals and 1985 for members. (Since birth year was only recorded in the 2020 dataset, the results are derived exclusively from the 2020 data.)
+1. **Age Distribution:** Due to data skewness, medians were used: median birth year is 1992 for casuals and 1985 for members. (Since birth year was only recorded in the 2020 dataset, the results are derived exclusively from the 2020 data.)
 <img width="568" height="494" alt="image" src="https://github.com/user-attachments/assets/d8bb0631-88db-4cfc-b68e-8b56cb73016b" />
 
 2. **Ride Duration:** Casuals typically take 6 times longer trips than members.   
 <img width="600" height="371" alt="image" src="https://github.com/user-attachments/assets/b2aec693-313b-4b86-8f58-1a3a60fb0b06" />
 
-3. **Hourly Patterns:** Members typically ride from early morning to early afternoon, while casual riders tend to ride during daytime hours. For instance, at 8 a.m., the difference in bike usage between the two user groups is approximately 60 rides.
+3. **Hourly Patterns:** Analysis shows that casual riders primarily ride during daytime, whereas members are more active during commute hours. For instance, at 8 a.m., the difference in bike usage between the two user groups is approximately 60 rides.
 <img width="568" height="494" alt="image" src="https://github.com/user-attachments/assets/d146cd40-2922-4b48-94f1-018269399e68" />
 
-4. **Seasonal Patterns:** Both groups ride more in March compared to January and February. Of the total rides in Q1, 31% occurred in January, 30% in February, and 39% in March (spring in Chicago). 
+4. **Seasonal Patterns:** Analysis of Q1 2019 and 2020 data shows that 31% of rides took place in January, 30% in February, and 39% in March, indicating increased activity during Chicago’s spring season.
 <img width="600" height="371" alt="image" src="https://github.com/user-attachments/assets/9cddda74-3455-411d-8290-c223b1e1628f" />
 <img width="666" height="339" alt="image" src="https://github.com/user-attachments/assets/786af3f7-bf68-4220-9812-6b2a11edb8fc" />
 
@@ -94,16 +94,25 @@ Tools I used for data analysis was **Google Bigquery** with SQL. All of my SQL c
 <img width="865" height="771" alt="image" src="https://github.com/user-attachments/assets/896ed116-d295-4ab2-89b7-e575ea1326b0" />
 <img width="865" height="771" alt="image" src="https://github.com/user-attachments/assets/45fcb1ec-525e-4eca-9b8d-e7060613a737" />
 
-6. **Weekly Usage Patterns:** Members exhibit relatively consistent bike usage throughout the week, whereas casual riders tend to ride more frequently on weekends, with usage approximately twice as high as on weekdays.
+6. **Weekly Usage Patterns:** Usage data shows that weekend rides by casual riders are approximately twice as high as their weekday rides.
 <img width="600" height="371" alt="image" src="https://github.com/user-attachments/assets/0e1ed16c-5f28-4146-b4d3-6709753c242a" />
 
 ---
 
 # Share
+1. Casual riders are generally younger than annual members.
+2. Casual riders take significantly longer trips than members.
+   - Based on the average trip duration per rider group, casual riders’ trips are approximately six times longer than those of annual members.
+3. Distinct temporal usage patterns exist between the two rider types.
+   - Members typically ride from early morning to early afternoon.
+4. Ridership increases in March for both user groups.
+   - Both groups ride more in March compared to January and February.
+5. Trip start and end locations are largely similar for casual riders and members.
+    - Casual riders ride more frequently on weekends, while members maintain relatively consistent usage throughout the week.
 
 ---
 
-# Recommendations
+# Act / Recommendations
 1. **March Marketing:** Intensify marketing campaigns in March to leverage higher ridership during spring.
 2. **Target Younger Casual Riders:** Focus marketing on younger casual riders to increase the likelihood of converting them into long-term members.
 3. **Target Weekend and Early-Week Riders:** Design promotions for casual riders who ride on weekends and Mondays, while also considering weekday riders likely using bikes as alternative transportation.
