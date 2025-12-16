@@ -101,4 +101,9 @@ Tools I used for data analysis was **Google Bigquery** with SQL. All of my SQL c
 
 # Share
 
+---
 
+# Recommendations
+1. **March Marketing:** Intensify marketing campaigns in March to leverage higher ridership during spring.
+2. **Target Younger Casual Riders:** Focus marketing on younger casual riders to increase the likelihood of converting them into long-term members.
+3. **Target Weekend and Early-Week Riders:** Design promotions for casual riders who ride on weekends and Mondays, while also considering weekday riders likely using bikes as alternative transportation.
