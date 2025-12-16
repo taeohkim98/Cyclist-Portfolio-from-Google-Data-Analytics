@@ -20,6 +20,7 @@ The findings from this analysis are intended to support Cyclistic executives in 
 # Ask
 The guiding question for this analysis is:  
 **"How do annual members and casual riders use Cyclistic bikes differently?"**
+
 To answer this question, I structured the analysis around the following key points:
   1. A clear description of the data sources used in this analysis  
   2. An explanation of how the data was cleaned and prepared  
