@@ -31,8 +31,12 @@ To answer this question, I structured the analysis around the following key poin
 ---
 
 # Prepare
-For this analysis, we utilized Cyclistic’s historical trip data, specifically the Divvy 2019 Q1 and 2020 Q1 datasets, as recommended in the case study. These publicly available datasets provide detailed information on rides taken by both casual riders and annual members, while ensuring no personally identifiable information is included. Due to the limitations of the **Postit Cloud Free Trial**, a smaller subset of the full dataset was used for this analysis.
+For this analysis, we utilized Cyclistic’s historical trip data, specifically the Divvy 2019 Q1 and 2020 Q1 datasets, as recommended in the case study.
+
+These publicly available datasets provide detailed information on rides taken by both casual riders and annual members, while ensuring no personally identifiable information is included. Due to the limitations of the **Postit Cloud Free Trial**, a smaller subset of the full dataset was used for this analysis.
+
 Since the 2019 and 2020 datasets contained slightly different columns, we first standardized the datasets to include only the common fields. Any columns that were present in one dataset but missing in the other are noted and addressed later in the analysis where relevant.
+
 The datasets were downloaded, securely stored, and systematically organized for analysis. Data quality checks were performed, including verification of column consistency, identification of missing values, and detection of outliers. Additionally, derived variables such as ride duration and day of the week were created to facilitate subsequent analysis.
 
 ---
