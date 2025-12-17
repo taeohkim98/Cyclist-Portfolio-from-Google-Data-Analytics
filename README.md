@@ -5,6 +5,10 @@ To build a strong foundation, I completed the **Google Data Analytics Profession
 In this capstone project, I apply this framework to the **Cyclistic case study**, with the goal of understanding rider behavior and providing data-driven marketing recommendations. Throughout the project, I use the tools introduced in the program—including **Google Sheets, SQL (BigQuery), R, and Tableau**—to clean, analyze, and visualize the data.
 This case study demonstrates my ability to follow a structured analytical process and communicate insights through clear visualizations and actionable recommendations.
 
+Although a suggested analysis workflow was provided in the case study,
+the data preparation and analysis approach was independently designed
+to address data inconsistencies and tool limitations encountered during the project.
+
 ---
 
 # Scenario
