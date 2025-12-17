@@ -39,6 +39,17 @@ Since the 2019 and 2020 datasets contained slightly different columns, we first 
 
 The datasets were downloaded, securely stored, and systematically organized for analysis. Data quality checks were performed, including verification of column consistency, identification of missing values, and detection of outliers. Additionally, derived variables such as ride duration and day of the week were created to facilitate subsequent analysis.
 
+Due to the limitations of the free-tier versions of BigQuery and R Cloud, 
+direct data manipulation commands such as UPDATE or DELETE were not available. 
+To address this, the analysis was designed using a read-only approach, 
+creating cleaned and transformed datasets through SELECT queries and derived tables.
+
+This approach reflects common real-world scenarios where analysts work with 
+restricted database permissions and are required to preserve raw data integrity. 
+All transformations were therefore performed in a reproducible and auditable manner, 
+ensuring analytical accuracy while maintaining best data governance practices.
+
+
 ---
 
 # Process
